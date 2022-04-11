@@ -1,0 +1,85 @@
+/* ===== wrapper ===== */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/* ===== end wrapper ===== */
+
+/* ===== container ===== */
+[class*="__container"] {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+/* ===== end container ===== */
+
+/* ===== body ===== */
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+}
+
+/* ===== end body ===== */
+
+/* ===== impact ===== */
+.impact {
+	background-color: #29C3BE;
+}
+.impact__container::before {
+	content: "";
+	display: block;
+	width: 638px;
+	height: 276px;
+	background: url('../img/impact-decor.png') 0 0 no-repeat;
+	position: absolute;
+	right: 360px;
+}
+.impact__container {}
+
+.impact__body {
+	display: flex;
+	margin: 80px 0px 85px 0px;
+	padding: 111px 0px 212px 0px;
+	position: relative;
+}
+
+.impact__content {
+	/*  */
+	flex: 0 0 50%;
+	align-self: flex-end;
+}
+
+.impact__text {
+	max-width: 411px;
+}
+
+.text-impact {
+	color: #FFFFFF;
+}
+
+.text-impact__subtitle {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+
+}
+
+.text-impact__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.16;
+	align-items: flex-end;
+}
+
+.impact__image {
+	flex: 0 0 50%;
+	/* margin: 0px 0px 80px 0px; */
+	position: absolute;
+	top: -80px;
+	right: 0px;
+}
+
+/* ===== end impact ===== */
