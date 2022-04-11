@@ -23,6 +23,82 @@ body {
 
 /* ===== end body ===== */
 
+/* ===== promise ===== */
+.promise {
+	background-color: #F5F5F5;
+}
+
+.promise__container {}
+
+.promise__body {
+	padding: 87px 0px 112px 0px;
+}
+
+.promise__subtitle {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5D62B5;
+	margin: 0px 0px 33px 0px;
+	padding: 0px 0px 0px 33px;
+	position: relative;
+}
+.promise__subtitle::before {
+	content: "";
+	background: url('../img/promise-icon.svg') 0 0 no-repeat;
+	position: absolute;
+	top: -1px;
+	left: 0px;
+	width: 28px;
+	height: 28px;
+}
+.promise__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.16;
+	color: #000000;
+	margin: 0px 0px 68px 0px;
+}
+
+.promise__items {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -12px;
+	/* gap: 24px; */
+}
+
+.promise__item {
+	display: flex;
+	gap: 26px;
+	flex: 0 1 33.333%;
+	padding: 0px 12px;
+}
+
+.item-promise {}
+
+.item-promise__image {}
+
+.item-promise__body {}
+
+.item-promise__title {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 1.36;
+	color: #F2726F;
+	margin: 0px 0px 20px 0px;
+}
+
+.item-promise__text {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+}
+
+/* ===== end promise ===== */
+
 /* ===== impact ===== */
 .impact {
 	background-color: #29C3BE;
@@ -42,7 +118,7 @@ body {
 
 .impact__body {
 	display: flex;
-	margin: 110px 0px 85px 0px;
+	margin: 0px 0px 85px 0px;
 	padding: 111px 0px 0px 0px;
 	position: relative;
 }
