@@ -8,8 +8,9 @@
 
 /* ===== container ===== */
 [class*="__container"] {
-	max-width: 1020px;
+	max-width: 1050px;
 	margin: 0 auto;
+	padding: 0px 15px;
 }
 
 /* ===== end container ===== */
@@ -26,6 +27,7 @@ body {
 .impact {
 	background-color: #29C3BE;
 }
+
 .impact__container::before {
 	content: "";
 	display: block;
@@ -35,12 +37,13 @@ body {
 	position: absolute;
 	right: 360px;
 }
+
 .impact__container {}
 
 .impact__body {
 	display: flex;
-	margin: 80px 0px 85px 0px;
-	padding: 111px 0px 212px 0px;
+	margin: 110px 0px 85px 0px;
+	padding: 111px 0px 0px 0px;
 	position: relative;
 }
 
@@ -64,7 +67,6 @@ body {
 	line-height: 2;
 	letter-spacing: 2.5px;
 	text-transform: uppercase;
-
 }
 
 .text-impact__title {
@@ -78,8 +80,42 @@ body {
 	flex: 0 0 50%;
 	/* margin: 0px 0px 80px 0px; */
 	position: absolute;
-	top: -80px;
+	top: -95px;
 	right: 0px;
+}
+
+.impact__items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0px 0px 212px 0px;
+}
+
+.impact__item {
+	display: flex;
+	gap: 11px;
+}
+
+.item-impact {}
+
+.item-impact__image {}
+
+.item-impact__body {}
+
+.item-impact__value {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.16;
+	color: #FFFFFF;
+	margin: 0px 0px 3px 0px;
+}
+
+.item-impact__text {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	color: #5D62B5;
 }
 
 /* ===== end impact ===== */
