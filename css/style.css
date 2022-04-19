@@ -59,15 +59,19 @@ body {
 .promise__items {
 	display: flex;
 	flex-wrap: wrap;
+	row-gap: 40px;
 	margin: 0px -12px;
 }
 .promise__item {
 	display: flex;
 	gap: 26px;
+	
 	flex: 0 1 33.333%;
 	padding: 0px 12px;
 }
-.item-promise {}
+.item-promise {
+	
+}
 
 .item-promise__image {}
 
@@ -91,6 +95,7 @@ body {
 /* ===== impact ===== */
 .impact {
 	background-color: #29C3BE;
+	
 }
 .impact__container::before {
 	content: "";
@@ -99,21 +104,26 @@ body {
 	height: 276px;
 	background: url('../img/impact-decor.png') 0 0 no-repeat;
 	position: absolute;
-	right: 360px;
+	right: -50px;
+	top: 0;
 }
-.impact__container {}
+.impact__container {
+	position: relative;
+}
 
 .impact__body {
 	display: flex;
 	margin: 0px 0px 85px 0px;
-	padding: 111px 0px 0px 0px;
+	/* padding: 111px 0px 0px 0px; */
 	position: relative;
 }
 .impact__content {
 	flex: 0 0 50%;
+	align-self: flex-end;
 }
 .impact__text {
 	max-width: 411px;
+	
 }
 .text-impact {
 	color: #FFFFFF;
@@ -143,19 +153,26 @@ body {
 }
 .impact__image {
 	flex: 0 0 50%;
-	position: absolute;
-	top: -95px;
-	right: 0px;
+	margin: -80px 0px 0px 0px;
+	padding: 0px 15px;
+}
+.impact__image img {
+	border-radius: 40px;
+	max-width: 100%;
 }
 .impact__items {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	row-gap: 30px;
 	padding: 0px 0px 212px 0px;
+	margin: 0px -12px;
+	position: relative;
 }
 .impact__item {
+	flex: 0 1 25%;;
 	display: flex;
 	gap: 11px;
+	padding: 0px 12px;
 }
 .item-impact {}
 
